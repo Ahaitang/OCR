@@ -1,0 +1,26 @@
+name: hospital-api
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - requests
+  - greenlet
+  - sqlalchemy
+  - pip:
+    - fastapi
+    - "uvicorn[standard]"
+    - pydantic
+    - pymysql
+    - apscheduler
+    - python-multipart
+    - python-dotenv
+    - joblib
+    - tenacity
+    - aiofiles
+    - pytest
