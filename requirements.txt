@@ -1,31 +1,14 @@
-# hospital-ai-service dependencies
+# Hospital OCR Service dependencies
 
 # FastAPI core
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
 pydantic==2.5.3
 
-# Database
-pymysql==1.1.0
-sqlalchemy==2.0.25
-
-# Data analysis
-numpy==1.26.3
-pandas==2.2.0
-scipy==1.12.0
-
-# Machine learning
-scikit-learn==1.4.0
-
 # OCR
 paddleocr==2.7.3
 paddlepaddle==2.6.0
 
-# Scheduler
-apscheduler==3.10.4
-
 # Utils
 python-multipart==0.0.6
-aiofiles==23.2.1
 python-dotenv==1.0.0
-requests==2.31.0

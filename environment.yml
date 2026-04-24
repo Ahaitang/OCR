@@ -1,26 +1,15 @@
-name: hospital-api
+name: hospital-ocr
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python=3.9
   - pip
-  - numpy
-  - pandas
-  - scipy
-  - scikit-learn
-  - requests
-  - greenlet
-  - sqlalchemy
   - pip:
     - fastapi
     - "uvicorn[standard]"
     - pydantic
-    - pymysql
-    - apscheduler
+    - paddleocr
+    - paddlepaddle
     - python-multipart
     - python-dotenv
-    - joblib
-    - tenacity
-    - aiofiles
-    - pytest
